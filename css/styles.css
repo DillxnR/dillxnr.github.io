@@ -1,12 +1,12 @@
 
 @font-face {
-    font-family: 'Lexend';    
+    font-family: 'SF';    
     font-weight: 1 999;
-    src: url('/fonts/lexend.ttf') format('truetype');
+    src: url('/fonts/SF.ttf') format('truetype');
 }
 
 html {
-    font-family:'Lexend', sans-serif;
+    font-family:'SF', sans-serif;
     background: var(--bg-color);
     color: var(--body-color);
     user-select: none;
@@ -50,7 +50,7 @@ html {
 
     /*--body-accent:#75DBCD;*/
 
-    --bg-grid: 50px 50px;
+    --bg-grid: 60px 60px;
 
     --button-bg: var(--hover-text);
 
