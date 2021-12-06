@@ -537,4 +537,20 @@ link {
 link:hover {
   background-size: 4px 50px;
 }
+a {
+  background:
+     linear-gradient(
+       to bottom, var(--hover-text) 0%,
+       var(--hover-text) 100%
+     );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  color: #000;
+  text-decoration: none;
+  transition: background-size .2s;
+}
 
+a:hover {
+  background-size: 4px 50px;
+}
