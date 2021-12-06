@@ -511,15 +511,7 @@ stuffsep a{
   --mainColor: #ff9800;
 }
 
-body {
-  align-items: center;
-  display: flex;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2em;
-  height: 100vh;
-  justify-content: center;
-}
-/*
+
 link {
   background:
      linear-gradient(
@@ -536,4 +528,4 @@ link {
 link:hover {
   background-size: 4px 50px;
 }
-*/
+
