@@ -548,4 +548,33 @@ body::before {
   box-shadow: 0px 0 10px rgba(0, 0, 0, 0.8);
   z-index: 100;
 }
+.ulink {
+  background: linear-gradient(0deg, #00f, #00f) no-repeat right bottom /
+    0 var(--bg-h);
+  /*  Moved to a feature query to detect motion settings.  */
+  /* transition: background-size 350ms; */
+  --bg-h: 100%;
+  /*  Move the color to here since I killed other a.  */
+  color: inherit;
+  /*  Making the default underline a bit better.  */
+  text-underline-offset: .1em;
+  text-decoration-color: #00f;
+}
+
+/* If they have not shown a preference for reduced */
+/* motion, then allow the transition to happen.    */
+@media (prefers-reduced-motion: no-preference) {
+  .ulink {
+    transition: background-size 350ms;
+  }
+}
+.ulink:focus {
+  outline: none;
+}
+
+.ulink {
+  padding-bottom: .1em;
+  --bg-h: .2em;
+  color: inherit;
+}
 
