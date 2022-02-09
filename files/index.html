@@ -5,21 +5,19 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta property="og:title" content="Dillon • HOME">
+    <meta property="og:title" content="Dillon • FILES">
     <meta property="og:site_name" content="Dillon's Website">
     <meta property="og:url" content="https://dillonring.me">
     <meta property="og:description"
         content="Hey, I'm Dillon!">
     <meta property="og:type" content="website">    
     <meta name="theme-color" content="#5465ff" />
-    <title>Dillon • HOME</title>
+    <title>Dillon • FILES</title>
 </head>
-
-<body>
-    <div id="hamburg" draggable="false" class="navlink hamburgerBTN" href="#">+</div>
+<div id="hamburg" draggable="false" class="navlink hamburgerBTN" href="#">+</div>
     <nav id="navbar">
         <nav-list class="list" id="navlist">
-            <a draggable="false" class="navlink current" href="/">
+            <a draggable="false" class="navlink" href="/">
                 <nav-item> HOME </nav-item>
             </a>
             <a draggable="false" class="navlink" href="/about">
@@ -36,20 +34,3 @@
             </a>
         </nav-list>
     </nav>
-    <hero-container>
-        <hero>
-            <h1 class="woop"> Dillon Ring </h1>
-        </hero>
-    </hero-container>
-    <spacefix></spacefix>
-</body>
-<script>
-    document.getElementById("hamburg").addEventListener("click", () => {
-        document.getElementById("navlist").classList.toggle("active");
-        document.getElementById("navbar").classList.toggle("active");
-        document.getElementById("hamburg").classList.toggle("active");
-    })
-</script>
-<script src="/js/proxyshitfix.js"></script>
-
-</html>
