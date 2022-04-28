@@ -1,12 +1,10 @@
 
 @font-face {
-    font-family: 'SF';    
-    font-weight: 1 999;
-    src: url('/fonts/SF.ttf') format('truetype');
+    font-family: 'Overpass', sans-serif;
 }
 
 html {
-    font-family:'SF', sans-serif;
+    font-family:'Overpass', sans-serif;
     background: var(--bg-color);
     color: var(--body-color);
     user-select: none;
