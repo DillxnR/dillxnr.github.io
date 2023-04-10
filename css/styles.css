@@ -1,9 +1,9 @@
 @font-face {
-  font-family: "Overpass", sans-serif;
+  font-family: "Omnes", sans-serif;
 }
 
 html {
-  font-family: "Overpass", sans-serif;
+  font-family: "Omnes", sans-serif;
   background: var(--bg-color);
   color: var(--body-color);
   user-select: none;
@@ -12,12 +12,12 @@ html {
 }
 
 :root {
-  --bg: #2f4550;
-  --text: #558c8c;
-  --body: #ffffff;
-  --hover: #586f7c;
-  --active: #97d8b2;
-  --hover-text: #8ac4ff;
+  --bg: #023047;
+  --text: #FFB700;
+  --body: #FFB700;
+  --hover: #FFB700;
+  --active: #023047;
+  --hover-text: #023047;
 
   --highlight: 1b4079;
 
