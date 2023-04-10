@@ -1,9 +1,9 @@
 @font-face {
-  font-family: "Omnes", sans-serif;
+  font-family: "indivisible-variable", sans-serif;
 }
 
 html {
-  font-family: "Omnes", sans-serif;
+  font-family: "indivisible-variable", sans-serif;
   background: var(--bg-color);
   color: var(--body-color);
   user-select: none;
