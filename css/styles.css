@@ -3,6 +3,11 @@
   font-variation-settings: "wght" 400;
 }
 
+h1 {
+  font-family: "indivisible-variable", sans-serif;
+  font-variation-settings: "wght" 110;
+}
+
 html {
   font-family: "indivisible-variable", sans-serif;
   background: var(--bg-color);
