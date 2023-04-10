@@ -1,5 +1,6 @@
 @font-face {
   font-family: "indivisible-variable", sans-serif;
+  font-variation-settings: "wght" 400;
 }
 
 html {
