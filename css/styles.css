@@ -121,7 +121,7 @@ html {
     letter-spacing: -0.95rem !important;
     transition: letter-spacing 1s cubic-bezier(0, 0.95, 0.26, 1),
       font-weight 1s cubic-bezier(0, 0.95, 0.26, 1);
-    font-weight: 900;
+    font-weight: 810;
   }
 
   nav {
