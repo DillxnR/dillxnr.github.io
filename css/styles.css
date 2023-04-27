@@ -110,7 +110,6 @@ html {
 @media only screen and (orientation: portrait) {
   .woop {
     /*transform: rotate(90deg);*/
-    letter-spacing: 1rem;
     font-size: 4em;
     top: 0px;
     font-variation-settings: "wght" 700;
